@@ -1,85 +1,77 @@
 input{
    height: 40px;
-   border-radius: 2px; 
-   
+   border-radius: 2px;
+   margin-left: 10px;}
+
+
+
+img{
+  width: 40px;
+   height: 50px; 
+  object-fit: contain;
 }
 
+.handing {
+   background-color: blue;
+   display: flex;
+   align-items: center;
+ }
+ 
+ .handing img {
+   margin-right: 8px; 
+ }
+ 
+ .handing span {
+   color: white; /
+ }
 
-.calculater th {
-     border-radius: 3px;
-    margin-top: 500px;
-
-}
-
-
-
-.handingtop {
-    background-color: blue;
-    color: white;
-    width: 500px;
-    margin-left: 500px;
-    border: 5px solid blue; 
-    border-bottom: 0;
-    border-collapse: collapse;
-    margin-top: 100px;
-    border-radius: 2px;
-    height: 100px;
-    margin-right: -100px;
-
-}
-
-th {
- font-weight: bold;
- background-color: silver;
- border: 2px solid black;
- width: 50px;
-}
-
-.calculator-container {
-    background-color: white;
-    padding: 20px;
-    display: inline-block;
-    border: 10px solid blue;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    margin-top:-70px;
-}
-
-
-.logo{
-    width: 30px;
-  margin-top: -100px;
-    
-}
-
-.cross {
-    width: 20px;
-  margin-left: 455px;
-   margin-top: -100px;
-   margin-bottom: 50px;
-   
-   
-}
-
-
-.maximaz{
-    width: 30px;
-    margin-left: 400px;
-    margin-bottom: 100px; 
-     margin-top: -100px; 
-
-    
-
+ th {
+   font-weight: bold;
+   background-color: silver;
+   border: 2px solid black;
+   width: 50px;
+  }
+  
+  .calculator-container {
+      background-color: white;
+      padding: 40px;
+      display: inline-block;
+      border: 7px solid blue;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      margin-top: -22px;
    
 
 
-}
 
-.mini{
-    width: 30px;
-    margin-left: 350px;
-    margin-bottom: 130px;
-    margin-top: -300px;
+  }
+
+  .calculater th {
+   border-radius: 3px;
+  margin-top: 200px;}
 
 
-}
+  .calulater {
+   position: relative; 
+   width: 522px;
+  
+ }
+ 
+ .icons {
+   position: absolute;
+   display: flex;
+   top: 20px;
+   left: 400px;
+  
+  
+
+ }
+ 
+ .icons img {
+   margin-right: 10px;
+   width: 30px; /* add this */
+   height: 20px; /* add this */
+ }
+   
+ 
+ 
